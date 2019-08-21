@@ -401,4 +401,12 @@ h3:hover {
         margin: 0 0 0 0.18%;
         height: 180px;
     }
+
+    .dropdown .dropbtn {
+        font-size: 3vw;
+    }
+
+    .small_text {
+        font-size: 2vw;
+    }
 }
