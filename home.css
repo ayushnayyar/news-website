@@ -42,8 +42,8 @@ a {
     border: none;
     background-color: inherit;
     color: #fff;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 1.4vw;
+    padding: 1vw;
     font-family: inherit;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 .fa-caret-down {
-    font-size: 14px;
+    font-size: 1vw;
     color: #6dd5fa;
 }
 
@@ -73,8 +73,8 @@ a {
 
 .social {
     float: right;
-    padding: 19.95px 6px 0 6px;
-    font-size: 15px;
+    margin: 1.4vw 0.3vw 0 0.3vw;
+    font-size: 1vw;
 }
 
 .fa-facebook-f {
@@ -108,8 +108,8 @@ a {
 .login {
     color: #fff;
     float: right;
-    padding: 19.95px 0 19.95px 30px;
-    font-size: 15px;
+    margin: 1.4vw 0 1.4vw 2vw;
+    font-size: 1vw;
 }
 
 .login a:hover {
@@ -163,7 +163,7 @@ a {
 .hero_large {
     width: 62.73vw;
     background-color: #000;
-    height: 52vh;
+    height: 400px;
     float: left;
     margin: 0.18% 0 0.18% 0.18%;
 }
@@ -171,7 +171,7 @@ a {
 .hero_small {
     width: 26.73vw;
     background-color: #000;
-    height: 52vh;
+    height: 400px;
     float: left;
     margin: 0.18%;
 }
@@ -179,7 +179,7 @@ a {
 .hero_large_s {
     width: 62.73vw;
     background-color: #000;
-    height: 52vh;
+    height: 400px;
     float: left;
     margin: 0 0.18% 0.18% 0;
 }
@@ -187,7 +187,7 @@ a {
 .hero_small_s {
     width: 26.73vw;
     background-color: #000;
-    height: 52vh;
+    height: 400px;
     float: left;
     margin: 0 0.18%;
 }
@@ -205,7 +205,25 @@ a {
     transform: translateY(-50%);
 }
 
+.hero_child_text_2 {
+    width: 50%;
+    color: #fff;
+    float: left;
+    padding: 4%;
+    text-align: left;
+    font-size: 1.7vw;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .hero_child_text:hover a {
+    color: #6dd5fa;
+}
+
+.hero_child_text_2:hover a {
     color: #6dd5fa;
 }
 
@@ -214,93 +232,123 @@ a {
 }
 
 .small_img {
-    height: 37vh;
+    height: 65%;
     width: 25.73vw;
 }
 
 .small_text {
     color: #fff;
     width: 26.73vw;
-    padding: 10% 2%;
-    text-align: left;
+    padding-top: 10%;
+    height: 35%;
+    text-align: center;
+    font-size: 1.2vw;
 }
 
 h3:hover {
     color: #6dd5fa;
 }
 
+.empty {
+    display: none;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1240px) {
     .hero_large {
-        height: 45vh;
+        height: 350px;
     }
 
     .hero_large_s {
-        height: 45vh;
+        height: 350px;
     }
 
     .hero_small {
-        height: 45vh;
+        height: 350px;
     }
 
     .hero_small_s {
-        height: 45vh;
+        height: 350px;
     }
 }
 
 @media only screen and (max-width: 1140px) {
     .hero_large {
-        height: 40vh;
+        height: 310px;
     }
 
     .hero_large_s {
-        height: 40vh;
+        height: 310px;
     }
 
     .hero_small {
-        height: 40vh;
+        height: 310px;
     }
 
     .hero_small_s {
-        height: 40vh;
+        height: 310px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .hero_large {
-        height: 37vh;
+        height: 270px;
     }
 
     .hero_large_s {
-        height: 37vh;
+        height: 270px;
     }
 
     .hero_small {
-        height: 37vh;
+        height: 270px;
     }
 
     .hero_small_s {
-        height: 37vh;
+        height: 270px;
     }
 }
 
 @media only screen and (max-width: 880px) {
     .hero_large {
-        height: 33vh;
+        height: 230px;
     }
 
     .hero_large_s {
-        height: 33vh;
+        height: 230px;
     }
 
     .hero_small {
-        height: 33vh;
+        height: 230px;
     }
 
     .hero_small_s {
-        height: 33vh;
+        height: 230px;
     }
+}
+
+@media only screen and (max-width: 800px) {
+    .social {
+        margin: 0 0.3vw 0 0.3vw;
+    }
+
+    .wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .login {
+        margin: 0 0 0 2vw;
+    }
+
+    .flex {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 80%;
+    }
+
 }
 
 @media only screen and (max-width: 740px) {
@@ -323,6 +371,10 @@ h3:hover {
         width: 44.62vw;
         margin: 0 0 0 0.18%;
     }
+
+    .small_text {
+        width: 45vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -344,10 +396,5 @@ h3:hover {
     .hero_small_s {
         width: 44.62vw;
         margin: 0 0 0 0.18%;
-    }
-
-    .navbar {
-        width: 100%;
-        text-align: center;
     }
 }
