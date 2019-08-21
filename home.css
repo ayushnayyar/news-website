@@ -412,9 +412,15 @@ h3:hover {
 
     .login {
         font-size: 3vw;
+        margin: 0 0 0 4vw;
     }
 
     .social {
         font-size: 3vw;
+        margin: 0 0.6vw 0 0.6vw;
+    }
+
+    .fa-caret-down {
+        font-size: 2vw;
     }
 }
