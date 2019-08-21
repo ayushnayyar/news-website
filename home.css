@@ -53,7 +53,7 @@ a {
 
 .fa-caret-down {
     font-size: 14px;
-    color: #FF4081;
+    color: #6dd5fa;
 }
 
 .dropdown-content a:hover {
@@ -78,7 +78,7 @@ a {
 }
 
 .fa-facebook-f {
-    color: #FF4081;
+    color: #6dd5fa;
 }
 
 .fa-facebook-f:hover {
@@ -86,7 +86,7 @@ a {
 }
 
 .fa-twitter {
-    color: #FF4081;
+    color: #6dd5fa;
 }
 
 .fa-twitter:hover {
@@ -94,7 +94,7 @@ a {
 }
 
 .fa-rss {
-    color: #FF4081;
+    color: #6dd5fa;
 }
 
 .fa-rss:hover {
@@ -125,11 +125,36 @@ a {
     color: #B0BEC5;
 }
 
+/* Flowing Gradient */
+
 .gradient {
-    background-image: linear-gradient(to right, #FFB300 ,#FF4081);
+    background: linear-gradient(270deg, #2980b9, #6dd5fa, #ffffff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
     display: inline-block;
     width: 90vw;
 }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+/* End of Flowing Gradient */
 
 .wrapper {
     text-align: center;
@@ -181,7 +206,7 @@ a {
 }
 
 .hero_child_text:hover a {
-    color: #FF4081;
+    color: #6dd5fa;
 }
 
 .hero_child_image {
@@ -201,7 +226,7 @@ a {
 }
 
 h3:hover {
-    color: #FF4081;
+    color: #6dd5fa;
 }
 
 /* Media Queries */
@@ -302,18 +327,22 @@ h3:hover {
 
 @media only screen and (max-width: 620px) {
     .hero_large {
-        height: 25vh;
+        width: 89.46vw;
     }
 
     .hero_large_s {
-        height: 25vh;
+        width: 89.46vw;
+        margin: 0.18%;
+        float: left;
     }
 
     .hero_small {
-        height: 25vh;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 
     .hero_small_s {
-        height: 25vh;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 }
