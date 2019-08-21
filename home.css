@@ -325,7 +325,7 @@ h3:hover {
     }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 600px) {
     .hero_large {
         width: 89.46vw;
     }
@@ -344,5 +344,10 @@ h3:hover {
     .hero_small_s {
         width: 44.62vw;
         margin: 0 0 0 0.18%;
+    }
+
+    .navbar {
+        width: 100%;
+        text-align: center;
     }
 }
