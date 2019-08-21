@@ -275,55 +275,67 @@ h3:hover {
 
 @media only screen and (max-width: 1140px) {
     .hero_large {
-        height: 310px;
+        width: 89.46vw;
     }
 
     .hero_large_s {
-        height: 310px;
+        width: 89.46vw;
+        margin: 0.18%;
+        float: left;
     }
 
     .hero_small {
-        height: 310px;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 
     .hero_small_s {
-        height: 310px;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 }
 
 @media only screen and (max-width: 1024px) {
-    .hero_large {
-        height: 270px;
+   .hero_large {
+        width: 89.46vw;
     }
 
     .hero_large_s {
-        height: 270px;
+        width: 89.46vw;
+        margin: 0.18%;
+        float: left;
     }
 
     .hero_small {
-        height: 270px;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 
     .hero_small_s {
-        height: 270px;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 }
 
 @media only screen and (max-width: 880px) {
     .hero_large {
-        height: 230px;
+        width: 89.46vw;
     }
 
     .hero_large_s {
-        height: 230px;
+        width: 89.46vw;
+        margin: 0.18%;
+        float: left;
     }
 
     .hero_small {
-        height: 230px;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 
     .hero_small_s {
-        height: 230px;
+        width: 44.62vw;
+        margin: 0 0 0 0.18%;
     }
 }
 
