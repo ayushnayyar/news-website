@@ -403,10 +403,18 @@ h3:hover {
     }
 
     .dropdown .dropbtn {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .small_text {
-        font-size: 2vw;
+        font-size: 2.5vw;
+    }
+
+    .login {
+        font-size: 3vw;
+    }
+
+    .social {
+        font-size: 3vw;
     }
 }
