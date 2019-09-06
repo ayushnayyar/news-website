@@ -1,5 +1,4 @@
-*,
-html {
+* {
     margin: 0;
     padding: 0;
 }
@@ -23,8 +22,7 @@ a {
 .navbar {
     width: 80%;
     padding: 0 10%;
-    border-top: 1px solid #263238;
-    border-bottom: 1px solid #263238;
+    border-bottom: 2px solid #263238;
     display: inline-block;
 }
 
@@ -438,3 +436,4 @@ h3:hover {
         font-size: 2vw;
     }
 }
+
