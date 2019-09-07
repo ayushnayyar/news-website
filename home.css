@@ -396,12 +396,20 @@ h3:hover {
 
 @media only screen and (max-width: 600px) {
     .hero_large {
-        width: 89.46vw;
+        width: 97.46vw;
         height: 160px;
     }
 
+    .social {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
     .hero_large_s {
-        width: 89.46vw;
+        width: 97.46vw;
         margin: 0.18%;
         float: left;
         height: 160px;
@@ -412,13 +420,13 @@ h3:hover {
     }
 
     .hero_small {
-        width: 44.62vw;
+        width: 46.62vw;
         margin: 0 0 0 0.18%;
         height: 160px;
     }
 
     .hero_small_s {
-        width: 44.62vw;
+        width: 46.62vw;
         margin: 0 0 0 0.18%;
         height: 160px;
     }
