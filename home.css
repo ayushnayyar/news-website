@@ -160,6 +160,11 @@ a {
 
 /* End of Flowing Gradient */
 
+h1 {
+    font-weight: 500;
+    margin: 5%;
+}
+
 .wrapper {
     text-align: center;
 }
@@ -198,9 +203,11 @@ a {
 
 .hero_child_text {
     width: 50%;
+    height: inherit;
     color: #fff;
     float: right;
-    font-size: 1.7vw;
+    text-align: left;
+    font-size: 1.6vw;
     position: relative;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -211,8 +218,10 @@ a {
 .hero_child_text_2 {
     width: 50%;
     color: #fff;
+    height: inherit;
     float: left;
     font-size: 1.7vw;
+    text-align: right;
     position: relative;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -253,12 +262,12 @@ a {
     font-size: 1.2vw;
 }
 
-h3:hover {
-    color: #6dd5fa;
+h3 {
+    font-weight: 500;
 }
 
-.empty {
-    display: none;
+h3:hover {
+    color: #6dd5fa;
 }
 
 /* Media Queries */
@@ -396,6 +405,10 @@ h3:hover {
         margin: 0.18%;
         float: left;
         height: 160px;
+    }
+
+    .gradient {
+        width: 98vw;
     }
 
     .hero_small {
