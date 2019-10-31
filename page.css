@@ -195,7 +195,21 @@ hr {
 
 .deals {
     width: 32%;
+    margin: 24% 0;
     float: right;
 }
 
+.deals-head {
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 10px 0 5px 0;
+    padding: 10px;
+    color: #25c0f7;
+    letter-spacing: 3px;
+    border-top: #25c0f7 2px solid;
+}
 
+.side-text {
+    text-align: center;
+    font-size: 15px;
+}
