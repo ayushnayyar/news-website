@@ -29,7 +29,7 @@ a {
 .dropdown-content {
     display: none;
     padding: 10px;
-    font-size: 0.8vw;
+    font-size: 1vw;
     position: absolute;
     z-index: 1;
     background-color: #263238;
@@ -229,12 +229,12 @@ h1 {
     transform: translateY(-50%);
 }
 
-#hero_child_text:hover a {
+#hero_large a:hover {
     color: #6dd5fa;
 }
 
-#hero_child_text_2:hover a {
-    color: #6dd5fa;
+#hero_large_s a:hover {
+    color: #6dd5fa; 
 }
 
 #hero_child_image {
