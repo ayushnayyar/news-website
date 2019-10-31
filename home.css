@@ -258,6 +258,7 @@ h1 {
     width: 25.4vw;
     height: 35%;
     font-size: 1.7vw;
+    padding-top: 10px;
 }
 
 .small_text a:hover {
