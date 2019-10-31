@@ -33,7 +33,6 @@ img {
     position: absolute;
     z-index: 1;
     background-color: #263238;
-    column-count: 2;
 }
 
 .dropdown {
@@ -69,7 +68,7 @@ img {
     color: #fff;
     display: block;
     text-align: left;
-    padding: 3px 0;
+    padding: 7px 0;
 }
 
 .dropdown:hover .dropdown-content {
